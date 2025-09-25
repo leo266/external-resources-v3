@@ -101,7 +101,7 @@ jobs:
 
   build-windows:
     needs: create-release
-    runs-on: windows-2022
+    runs-on: windows-2019
     steps:
       - uses: actions/checkout@v4
 
